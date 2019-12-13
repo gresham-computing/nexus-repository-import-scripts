@@ -11,8 +11,8 @@ while getopts ":r:u:p:n:" opt; do
 		;;
 		p) PASSWORD="$OPTARG"
 		;;
-		n)
-		;; PROCESSES="$OPTARG"
+		n) PROCESSES="$OPTARG"
+		;;
 	esac
 done
 
